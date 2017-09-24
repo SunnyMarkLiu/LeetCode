@@ -3,7 +3,8 @@ Leet Code Solutions
 
 ## Contents
 ## 1-50
-- [x] 1. Two Sum.py
+- [x] 1. Two Sum
+- [x] 15. Three Sum
 
 ## 51-100
 
