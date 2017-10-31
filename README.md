@@ -16,7 +16,7 @@ Leet Code Solutions
 - [x] 167. Two Sum II - Input array is sorted
 
 ## Summary
-- [N Sum 问题总结]()
+- [N Sum 问题总结](https://github.com/SunnyMarkLiu/LeetCode/blob/master/Summary/N%20Sum%20%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.md)
 
 ## License
 This project is licensed under the terms of the MIT license.
