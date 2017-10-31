@@ -6,6 +6,7 @@ Leet Code Solutions
 - [x] 1. Two Sum
 - [x] 15. Three Sum
 - [x] 16. Three Sum Closest
+- [x] 18. Four Sum
 
 ## 51-100
 
