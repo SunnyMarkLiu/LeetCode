@@ -5,6 +5,7 @@ Leet Code Solutions
 ## 1-50
 - [x] 1. Two Sum
 - [x] 15. Three Sum
+- [x] 16. Three Sum Closest
 
 ## 51-100
 
