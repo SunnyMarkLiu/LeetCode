@@ -19,7 +19,7 @@ Leet Code Solutions
 - [ ] 454. Four Sum II
 
 ## Summary
-- [N Sum 问题总结](https://github.com/SunnyMarkLiu/LeetCode/blob/master/Summary/N%20Sum%20%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.md)
+- [K Sum 问题总结](https://github.com/SunnyMarkLiu/LeetCode/blob/master/Summary/K%20Sum%20%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.md)
 
 ## License
 This project is licensed under the terms of the MIT license.
