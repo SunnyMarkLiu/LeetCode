@@ -9,7 +9,8 @@ Leet Code Solutions
 - [x] 18. Four Sum
 
 ## 101-200
-- [x] 167. Two Sum II - Input array is sorted
+- [x] 167. Two Sum II
+- [x] 136. Single Number
 
 ## 201-300
 
