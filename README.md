@@ -11,10 +11,15 @@ Leet Code Solutions
 ## 101-200
 - [x] 167. Two Sum II
 - [x] 136. Single Number
+- [x] 137. Single Number II
 
 ## 201-300
+- [ ] 260. Single Number III
+- [ ] 268. Missing Number
+
 
 ## 301-400
+- [ ]  389. Find the Difference
 
 ## 401-500
 - [x] 454. Four Sum II
