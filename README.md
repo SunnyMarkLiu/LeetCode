@@ -19,7 +19,7 @@ Leet Code Solutions
 - [x] 268. Missing Number
 
 ## 301-400
-- [ ]  389. Find the Difference
+- [x]  389. Find the Difference
 
 ## 401-500
 - [x] 454. Four Sum II
