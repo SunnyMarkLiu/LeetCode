@@ -14,6 +14,7 @@ Leet Code Solutions
 - [x] 137. Single Number II
 
 ## 201-300
+- [x] 202. Happy Number
 - [x] 260. Single Number III
 - [ ] 268. Missing Number
 
