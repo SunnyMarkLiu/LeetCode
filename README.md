@@ -4,6 +4,7 @@ Leet Code Solutions
 ## Contents
 ## 1-100
 - [x] 1. Two Sum
+- [x] 7. Reverse Integer
 - [x] 15. Three Sum
 - [x] 16. Three Sum Closest
 - [x] 18. Four Sum
