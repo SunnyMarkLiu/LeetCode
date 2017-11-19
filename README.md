@@ -21,6 +21,7 @@ Leet Code Solutions
 ## 201-300
 - [x] 202. Happy Number
 - [x] 206. Reverse Linked List
+- [x] 217. Contains Duplicate
 - [x] 234. Palindrome Linked List
 - [x] 260. Single Number III
 - [x] 268. Missing Number
