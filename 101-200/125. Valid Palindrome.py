@@ -45,31 +45,17 @@ class Solution(object):
         if (s is None) or (s.strip() == ''):
             return True
 
-        processed_str_len = 0
-
         # 头尾指针判断字符是否相等
-        i, j = 0, len(s) - 1
-        while (i <= j) and processed_str_len < len(s):
-            if not self.is_legal_str(s[i]):
-                i += 1
-                processed_str_len += 1
-                continue
-
-            if not self.is_legal_str(s[j]):
-                j -= 1
-                processed_str_len += 1
-                continue
-
-            if s[i].lower() != s[j].lower():
+        l, r = 0, len(s) - 1
+        while l < r:
+            while l < r and not s[l].isalnum():
+                l += 1
+            while l < r and not s[r].isalnum():
+                r -= 1
+            if s[l].lower() != s[r].lower():
                 return False
-            if i == j:
-                processed_str_len += 1
-            else:
-                processed_str_len += 2
-
-            i += 1
-            j -= 1
-
+            l += 1
+            r -= 1
         return True
 
 
