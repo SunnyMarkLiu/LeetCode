@@ -9,6 +9,7 @@ Leet Code Solutions
 - [x] 15. Three Sum
 - [x] 16. Three Sum Closest
 - [x] 18. Four Sum
+- [x] 27. Remove Element
 
 ## 101-200
 - [x] 125. Valid Palindrome
