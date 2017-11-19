@@ -11,6 +11,7 @@ Leet Code Solutions
 - [x] 18. Four Sum
 
 ## 101-200
+- [x] 125. Valid Palindrome
 - [x] 167. Two Sum II
 - [x] 136. Single Number
 - [x] 137. Single Number II
@@ -18,7 +19,7 @@ Leet Code Solutions
 ## 201-300
 - [x] 202. Happy Number
 - [x] 206. Reverse Linked List
-- [ ] 234. Palindrome Linked List
+- [x] 234. Palindrome Linked List
 - [x] 260. Single Number III
 - [x] 268. Missing Number
 
