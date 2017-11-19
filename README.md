@@ -9,6 +9,7 @@ Leet Code Solutions
 - [x] 15. Three Sum
 - [x] 16. Three Sum Closest
 - [x] 18. Four Sum
+- [ ] 26. Remove Duplicates from Sorted Array
 - [x] 27. Remove Element
 
 ## 101-200
@@ -23,6 +24,7 @@ Leet Code Solutions
 - [x] 234. Palindrome Linked List
 - [x] 260. Single Number III
 - [x] 268. Missing Number
+- [x] 283. Move Zeroes
 
 ## 301-400
 - [x]  389. Find the Difference
