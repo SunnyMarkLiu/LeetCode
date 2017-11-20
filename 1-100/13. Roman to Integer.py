@@ -22,32 +22,21 @@
 
 
 class Solution(object):
-    def char2num(self, c):
-        if c == 'I':
-            return 1
-        elif c == 'V':
-            return 5
-        elif c == 'X':
-            return 10
-        elif c == 'L':
-            return 50
-        elif c == 'C':
-            return 100
-        elif c == 'D':
-            return 500
-        elif c == 'M':
-            return 1000
-        else:
-            return None
-
     def romanToInt(self, s):
         """
         :type s: str
         :rtype: int
         """
-        convert_num = self.char2num(s[0])
+        char_map = {'I': 1,
+                    'V': 5,
+                    'X': 10,
+                    'L': 50,
+                    'C': 100,
+                    'D': 500,
+                    'M': 1000}
+        convert_num = char_map[s[0]]
         for i in range(1, len(s)):
-            pre, cur = self.char2num(s[i - 1]), self.char2num(s[i])
+            pre, cur = char_map[s[i - 1]], char_map[s[i]]
             if cur <= pre:
                 convert_num += cur
             else:
