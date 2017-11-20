@@ -8,6 +8,7 @@ Leet Code Solutions
 - [x] 9. Palindrome Number
 - [x] 12. Integer to Roman
 - [x] 13. Roman to Integer
+- [x] 14. Longest Common Prefix
 - [x] 15. Three Sum
 - [x] 16. Three Sum Closest
 - [x] 18. Four Sum
