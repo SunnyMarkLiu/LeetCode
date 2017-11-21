@@ -12,6 +12,7 @@ Leet Code Solutions
 - [x] 15. Three Sum
 - [x] 16. Three Sum Closest
 - [x] 18. Four Sum
+- [x] 20. Valid Parentheses
 - [x] 26. Remove Duplicates from Sorted Array
 - [x] 27. Remove Element
 
