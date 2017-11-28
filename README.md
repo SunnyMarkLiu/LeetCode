@@ -16,6 +16,7 @@ Leet Code Solutions
 - [x] 21. Merge Two Sorted Lists
 - [x] 26. Remove Duplicates from Sorted Array
 - [x] 27. Remove Element
+- [x] 28. Implement strStr
 - [x] 88. Merge Sorted Array
 
 ## 101-200
