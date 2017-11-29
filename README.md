@@ -18,6 +18,7 @@ Leet Code Solutions
 - [x] 27. Remove Element
 - [x] 28. Implement strStr
 - [x] 35. Search Insert Position
+- [x] 38. Count and Say
 - [x] 88. Merge Sorted Array
 
 ## 101-200
