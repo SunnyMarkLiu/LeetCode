@@ -16,11 +16,11 @@ class Solution(object):
         """
         if len(nums) == 0:
             return 0
+        if target > nums[-1]:
+            return len(nums)
 
         for i, num in enumerate(nums):
             if target <= num:
                 return i
-
-        return len(nums)
 
 print Solution().searchInsert([0.1, 2, 3], 1)
