@@ -33,6 +33,7 @@ Leet Code Solutions
 - [x] 234. Palindrome Linked List
 - [x] 260. Single Number III
 - [x] 268. Missing Number
+- [x] 278. First Bad Version
 - [x] 283. Move Zeroes
 
 ## 301-400
