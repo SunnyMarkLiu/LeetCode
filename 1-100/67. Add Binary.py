@@ -8,7 +8,7 @@
 
 
 class Solution(object):
-    def addBinary(self, a, b):
+    def addBinary2(self, a, b):
         """
         :type a: str
         :type b: str
@@ -33,16 +33,31 @@ class Solution(object):
             if s <= 1:
                 carry = 0
                 result[i] = str(s)
-            elif s == 2:
+            else:
                 carry = 1
-                result[i] = '0'
-            elif s == 3:
-                carry = 1
-                result[i] = '1'
+                result[i] = str(s % 2)
 
         if carry == 1:
             result.insert(0, '1')
         return ''.join(result)
+
+    def addBinary(self, a, b):
+        """
+        :type a: str
+        :type b: str
+        :rtype: str
+        """
+        if len(a) == 0:
+            return b
+        if len(b) == 0:
+            return a
+        if a[-1] == '1' and b[-1] == '1':
+            # 此处的 '1' 表示进位
+            return self.addBinary(self.addBinary(a[:-1], b[:-1]), '1') + '0'
+        elif a[-1] == '0' and b[-1] == '0':
+            return self.addBinary(a[:-1], b[:-1]) + '0'
+        else:  # a=1, b=0; a=0, b=1
+            return self.addBinary(a[:-1], b[:-1]) + '1'
 
 
 print Solution().addBinary('11', '1')

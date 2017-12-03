@@ -44,11 +44,13 @@ Leet Code Solutions
 - [x]  389. Find the Difference
 
 ## 401-500
+- [x] 415. Add Strings
 - [x] 443. String Compression
 - [x] 459. Repeated Substring Pattern
 - [x] 454. Four Sum II
 
 ## 501-600
+- [x] 557. Reverse Words in a String III
 
 ## 601-700
 - [x] 686. Repeated String Match
