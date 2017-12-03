@@ -42,7 +42,8 @@ Leet Code Solutions
 - [x] 283. Move Zeroes
 
 ## 301-400
-- [x]  389. Find the Difference
+- [x] 371. Sum of Two Integers
+- [x] 389. Find the Difference
 
 ## 401-500
 - [x] 415. Add Strings
