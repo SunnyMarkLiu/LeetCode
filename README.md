@@ -4,6 +4,7 @@ Leet Code Solutions
 ## Contents
 ## 1-100
 - [x] 1. Two Sum
+- [x] 2. Add Two Numbers
 - [x] 7. Reverse Integer
 - [x] 9. Palindrome Number
 - [x] 12. Integer to Roman
