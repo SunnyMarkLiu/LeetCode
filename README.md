@@ -21,6 +21,7 @@ Leet Code Solutions
 - [x] 38. Count and Say
 - [x] 58. Length of Last Word
 - [x] 66. Plus One
+- [x] 67. Add Binary
 - [x] 88. Merge Sorted Array
 
 ## 101-200
