@@ -15,7 +15,7 @@ class ListNode(object):
 
 
 class Solution(object):
-    def deleteDuplicates(self, head):
+    def deleteDuplicates2(self, head):
         """
         :type head: ListNode
         :rtype: ListNode
@@ -34,3 +34,21 @@ class Solution(object):
         move.next = None
 
         return r_head.next
+
+    def deleteDuplicates(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        result = head
+        while result:
+            if result.next is None:
+                break
+
+            # 重复数据发生在相邻数字
+            if result.val == result.next.val:
+                result.next = result.next.next
+            else:
+                result = result.next
+
+        return head
