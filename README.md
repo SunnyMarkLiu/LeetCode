@@ -49,6 +49,7 @@ Leet Code Solutions
 
 ## 301-400
 - [x] 326. Power of Three
+- [x] 342. Power of Four
 - [x] 371. Sum of Two Integers
 - [x] 389. Find the Difference
 
