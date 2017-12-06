@@ -34,6 +34,7 @@ Leet Code Solutions
 - [x] 167. Two Sum II
 - [x] 136. Single Number
 - [x] 137. Single Number II
+- [x] 191. Number of 1 Bits
 
 ## 201-300
 - [x] 202. Happy Number
