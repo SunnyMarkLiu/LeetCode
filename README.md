@@ -7,6 +7,7 @@ Leet Code Solutions
 - [x] 2. Add Two Numbers
 - [x] 3. Longest Substring Without Repeating Characters
 - [x] 7. Reverse Integer
+- [x] 8. String to Integer (atoi)
 - [x] 9. Palindrome Number
 - [x] 12. Integer to Roman
 - [x] 13. Roman to Integer
