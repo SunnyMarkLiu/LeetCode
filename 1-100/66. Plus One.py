@@ -25,4 +25,4 @@ class Solution(object):
         return digits
 
 
-print Solution().plusOne([9, 9, 9])
+print(Solution().plusOne([8, 9, 0]))

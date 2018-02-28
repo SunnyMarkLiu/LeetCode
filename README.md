@@ -26,6 +26,7 @@ Leet Code Solutions
 - [x] 66. Plus One
 - [x] 67. Add Binary
 - [x] 69. Sqrt(x)
+- [x] 80. Remove Duplicates from Sorted Array II
 - [x] 83. Remove Duplicates from Sorted List
 - [x] 88. Merge Sorted Array
 
@@ -40,6 +41,7 @@ Leet Code Solutions
 
 ## 201-300
 - [x] 202. Happy Number
+- [x] 203. Remove Linked List Elements
 - [x] 206. Reverse Linked List
 - [x] 217. Contains Duplicate
 - [x] 231. Power of Two
