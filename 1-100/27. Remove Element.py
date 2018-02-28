@@ -11,7 +11,7 @@
 
 
 class Solution(object):
-    def removeElement2(self, nums, val):
+    def removeElement1(self, nums, val):
         """
         :type nums: List[int]
         :type val: int
@@ -26,7 +26,7 @@ class Solution(object):
 
         return len(nums)
 
-    def removeElement(self, nums, val):
+    def removeElement2(self, nums, val):
         """
         :type nums: List[int]
         :type val: int
@@ -42,8 +42,27 @@ class Solution(object):
                 i += 1
         return i
 
+    def removeElement(self, nums, val):
+        """
+        :type nums: List[int]
+        :type val: int
+        :rtype: int
+        """
+        if val not in nums:
+            return len(nums)
+
+        i = 0
+        n = len(nums)
+        while i < n:
+            if nums[i] == val:  # 如果找到等于 val 的数，用最后一个数替换 val，减少 nums 的长度，同时丢弃最后一个数，n--
+                nums[i] = nums[n - 1]
+                n -= 1  # reduce array size by one
+            else:
+                i += 1
+        return n
+
 
 nums_ = [3, 2, 2, 3]
 val_ = 3
-print Solution().removeElement(nums_, val_)
-print nums_
+print(Solution().removeElement(nums_, val_))
+print(nums_)

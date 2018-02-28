@@ -35,13 +35,14 @@ class Solution(object):
 
     def removeDuplicates(self, nums):
         """
-        beat 82.77%
+        beat 44.82%
         :type nums: List[int]
         :rtype: int
         """
-        if len(nums) == 0:
+        if nums is None or len(nums) == 0:
             return 0
 
+        # i 记录当前满足要求的最后一个数的下标
         i = 0
         for j in range(1, len(nums)):
             if nums[j] != nums[i]:
@@ -50,4 +51,4 @@ class Solution(object):
         return i + 1
 
 
-print Solution().removeDuplicates([1, 1, 2])
+print(Solution().removeDuplicates([1, 1, 2]))
