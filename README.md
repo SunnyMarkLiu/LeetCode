@@ -28,6 +28,7 @@ Leet Code Solutions
 - [x] 67. Add Binary
 - [x] 69. Sqrt(x)
 - [x] 80. Remove Duplicates from Sorted Array II
+- [x] 81. Search in Rotated Sorted Array II
 - [x] 83. Remove Duplicates from Sorted List
 - [x] 88. Merge Sorted Array
 
@@ -35,6 +36,8 @@ Leet Code Solutions
 - [x] 118. Pascal's Triangle
 - [x] 119. Pascal's Triangle II
 - [x] 125. Valid Palindrome
+- [x] 153. Find Minimum in Rotated Sorted Array
+- [x] 154. Find Minimum in Rotated Sorted Array II
 - [x] 167. Two Sum II
 - [x] 136. Single Number
 - [x] 137. Single Number II

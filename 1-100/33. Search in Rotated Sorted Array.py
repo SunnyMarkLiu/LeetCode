@@ -36,7 +36,7 @@ class Solution:
                 min_index = start
                 break
 
-            mid = (start + stop) // 2
+            mid = start + (stop - start) // 2
 
             if nums[mid] == target:
                 return mid
@@ -72,7 +72,7 @@ class Solution:
             if nums[stop] == target:
                 return stop
 
-            mid = (start + stop) // 2
+            mid = start + (stop - start) // 2
 
             if nums[mid] == target:
                 return mid
@@ -113,7 +113,8 @@ class Solution:
         low, high = 0, len(nums) - 1
 
         while low <= high:
-            mid = (low + high) // 2
+            # 不要使用　mid = (low + high) // 2,　数组很大是会造成 overflow, binary search bug
+            mid = low + (high - low) // 2
 
             if nums[mid] == target:
                 return mid
@@ -136,4 +137,4 @@ class Solution:
 
 print(Solution().search([4, 5, 6, 7, 8, 0, 1, 2, 3], 4))
 print(Solution().search([0, 1, 2, 3, 4, 5, 6, 7, 8], 3))
-print(Solution().search([1, 3], 3))
+print(Solution().search([1, 3], 4))
