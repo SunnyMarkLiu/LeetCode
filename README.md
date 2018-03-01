@@ -20,6 +20,7 @@ Leet Code Solutions
 - [x] 26. Remove Duplicates from Sorted Array
 - [x] 27. Remove Element
 - [x] 28. Implement strStr
+- [x] 33. Search in Rotated Sorted Array
 - [x] 35. Search Insert Position
 - [x] 38. Count and Say
 - [x] 58. Length of Last Word
@@ -31,6 +32,8 @@ Leet Code Solutions
 - [x] 88. Merge Sorted Array
 
 ## 101-200
+- [x] 118. Pascal's Triangle
+- [x] 119. Pascal's Triangle II
 - [x] 125. Valid Palindrome
 - [x] 167. Two Sum II
 - [x] 136. Single Number
