@@ -15,6 +15,7 @@ Leet Code Solutions
 - [x] 15. Three Sum
 - [x] 16. Three Sum Closest
 - [x] 18. Four Sum
+- [x] 19. Remove Nth Node From End of List
 - [x] 20. Valid Parentheses
 - [x] 21. Merge Two Sorted Lists
 - [x] 26. Remove Duplicates from Sorted Array
@@ -36,6 +37,8 @@ Leet Code Solutions
 - [x] 118. Pascal's Triangle
 - [x] 119. Pascal's Triangle II
 - [x] 125. Valid Palindrome
+- [x] 141. Linked List Cycle
+- [x] 142. Linked List Cycle II
 - [x] 153. Find Minimum in Rotated Sorted Array
 - [x] 154. Find Minimum in Rotated Sorted Array II
 - [x] 167. Two Sum II
@@ -56,6 +59,7 @@ Leet Code Solutions
 - [x] 268. Missing Number
 - [x] 278. First Bad Version
 - [x] 283. Move Zeroes
+- [x] 287. Find the Duplicate Number
 
 ## 301-400
 - [x] 326. Power of Three
