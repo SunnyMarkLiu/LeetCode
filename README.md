@@ -25,6 +25,7 @@ Leet Code Solutions
 - [x] 33. Search in Rotated Sorted Array
 - [x] 35. Search Insert Position
 - [x] 38. Count and Say
+- [x] 42. Trapping Rain Water
 - [x] 58. Length of Last Word
 - [x] 66. Plus One
 - [x] 67. Add Binary
@@ -56,6 +57,7 @@ Leet Code Solutions
 - [x] 217. Contains Duplicate
 - [x] 231. Power of Two
 - [x] 234. Palindrome Linked List
+- [x] 238. Product of Array Except Self
 - [x] 260. Single Number III
 - [x] 268. Missing Number
 - [x] 278. First Bad Version
