@@ -24,6 +24,7 @@ def isBadVersion(version):
 class Solution(object):
     def firstBadVersion(self, n):
         """
+        相当于找到符合要求的最左边的边界
         :type n: int
         :rtype: int
         """

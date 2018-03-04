@@ -43,6 +43,7 @@ Leet Code Solutions
 - [x] 142. Linked List Cycle II
 - [x] 153. Find Minimum in Rotated Sorted Array
 - [x] 154. Find Minimum in Rotated Sorted Array II
+- [x] 162. Find Peak Element
 - [x] 167. Two Sum II
 - [x] 136. Single Number
 - [x] 137. Single Number II
