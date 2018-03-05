@@ -6,6 +6,7 @@ Leet Code Solutions
 - [x] 1. Two Sum
 - [x] 2. Add Two Numbers
 - [x] 3. Longest Substring Without Repeating Characters
+- [x] 5. Longest Palindromic Substring
 - [x] 7. Reverse Integer
 - [x] 8. String to Integer (atoi)
 - [x] 9. Palindrome Number
@@ -48,6 +49,7 @@ Leet Code Solutions
 - [x] 167. Two Sum II
 - [x] 136. Single Number
 - [x] 137. Single Number II
+- [x] 187. Repeated DNA Sequences
 - [x] 189. Rotate Array
 - [x] 190. Reverse Bits
 - [x] 191. Number of 1 Bits
@@ -55,6 +57,7 @@ Leet Code Solutions
 ## 201-300
 - [x] 202. Happy Number
 - [x] 203. Remove Linked List Elements
+- [x] 205. Isomorphic Strings
 - [x] 206. Reverse Linked List
 - [x] 217. Contains Duplicate
 - [x] 231. Power of Two
@@ -65,6 +68,7 @@ Leet Code Solutions
 - [x] 278. First Bad Version
 - [x] 283. Move Zeroes
 - [x] 287. Find the Duplicate Number
+- [x] 290. Word Pattern
 
 ## 301-400
 - [x] 326. Power of Three
