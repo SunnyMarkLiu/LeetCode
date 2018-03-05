@@ -43,6 +43,7 @@ Leet Code Solutions
 - [x] 142. Linked List Cycle II
 - [x] 153. Find Minimum in Rotated Sorted Array
 - [x] 154. Find Minimum in Rotated Sorted Array II
+- [x] 155. Min Stack
 - [x] 162. Find Peak Element
 - [x] 167. Two Sum II
 - [x] 136. Single Number
@@ -70,6 +71,7 @@ Leet Code Solutions
 - [x] 342. Power of Four
 - [x] 371. Sum of Two Integers
 - [x] 389. Find the Difference
+- [x] 394. Decode String
 
 ## 401-500
 - [x] 415. Add Strings

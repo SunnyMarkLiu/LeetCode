@@ -2,7 +2,7 @@
 # _*_ coding: utf-8 _*_
 
 """
-对于一个非负数n，它的平方根不会小于大于（n/2+1）, 在[0, n/2+1]这个范围内可以进行二分搜索，求出n的平方根。
+对于一个非负数n，它的平方根不会大于（n/2+1）, 在[0, n/2+1]这个范围内可以进行二分搜索，求出n的平方根。
 
 @author: MarkLiu
 @time  : 17-12-4 上午10:06
@@ -46,6 +46,3 @@ class Solution(object):
             x_i = (x_i + n / x_i) / 2
 
         return x_i
-
-
-print Solution().mySqrt(2)
