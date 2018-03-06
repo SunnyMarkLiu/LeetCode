@@ -24,9 +24,11 @@ Leet Code Solutions
 - [x] 27. Remove Element
 - [x] 28. Implement strStr
 - [x] 33. Search in Rotated Sorted Array
+- [x] 34. Search for a Range
 - [x] 35. Search Insert Position
 - [x] 38. Count and Say
 - [x] 42. Trapping Rain Water
+- [x] 53. Maximum Subarray
 - [x] 58. Length of Last Word
 - [x] 66. Plus One
 - [x] 67. Add Binary
@@ -34,22 +36,27 @@ Leet Code Solutions
 - [x] 80. Remove Duplicates from Sorted Array II
 - [x] 81. Search in Rotated Sorted Array II
 - [x] 83. Remove Duplicates from Sorted List
+- [x] 84. Largest Rectangle in Histogram
 - [x] 88. Merge Sorted Array
+- [x] 94. Binary Tree Inorder Traversal
+- [x] 100. Same Tree
 
 ## 101-200
 - [x] 118. Pascal's Triangle
 - [x] 119. Pascal's Triangle II
 - [x] 125. Valid Palindrome
 - [x] 128. Longest Consecutive Sequence
+- [x] 136. Single Number
+- [x] 137. Single Number II
 - [x] 141. Linked List Cycle
 - [x] 142. Linked List Cycle II
+- [x] 144. Binary Tree Preorder Traversal
+- [x] 145. Binary Tree Postorder Traversal
 - [x] 153. Find Minimum in Rotated Sorted Array
 - [x] 154. Find Minimum in Rotated Sorted Array II
 - [x] 155. Min Stack
 - [x] 162. Find Peak Element
 - [x] 167. Two Sum II
-- [x] 136. Single Number
-- [x] 137. Single Number II
 - [x] 187. Repeated DNA Sequences
 - [x] 189. Rotate Array
 - [x] 190. Reverse Bits
@@ -66,6 +73,7 @@ Leet Code Solutions
 - [x] 231. Power of Two
 - [x] 232. Implement Queue using Stacks
 - [x] 234. Palindrome Linked List
+- [x] 237. Delete Node in a Linked List
 - [x] 238. Product of Array Except Self
 - [x] 260. Single Number III
 - [x] 268. Missing Number
@@ -76,8 +84,11 @@ Leet Code Solutions
 
 ## 301-400
 - [x] 326. Power of Three
+- [x] 328. Odd Even Linked List
+- [x] 336. Palindrome Pairs
 - [x] 342. Power of Four
 - [x] 371. Sum of Two Integers
+- [x] 374. Guess Number Higher or Lower
 - [x] 389. Find the Difference
 - [x] 394. Decode String
 
@@ -86,8 +97,8 @@ Leet Code Solutions
 - [x] 415. Add Strings
 - [x] 443. String Compression
 - [x] 445. Add Two Numbers II
-- [x] 459. Repeated Substring Pattern
 - [x] 454. Four Sum II
+- [x] 459. Repeated Substring Pattern
 
 ## 501-600
 - [x] 557. Reverse Words in a String III
