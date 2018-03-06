@@ -33,15 +33,3 @@ class Solution(object):
             current = tmp_next
 
         return previou
-
-
-head_ = ListNode(0)
-node1 = ListNode(1)
-node2 = ListNode(2)
-
-head_.next = node1
-node1.next = node2
-result = Solution().reverseList(head_)
-while result:
-    print result.val
-    result = result.next

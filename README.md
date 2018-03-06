@@ -40,6 +40,7 @@ Leet Code Solutions
 - [x] 118. Pascal's Triangle
 - [x] 119. Pascal's Triangle II
 - [x] 125. Valid Palindrome
+- [x] 128. Longest Consecutive Sequence
 - [x] 141. Linked List Cycle
 - [x] 142. Linked List Cycle II
 - [x] 153. Find Minimum in Rotated Sorted Array
@@ -57,10 +58,13 @@ Leet Code Solutions
 ## 201-300
 - [x] 202. Happy Number
 - [x] 203. Remove Linked List Elements
+- [x] 204. Count Primes
 - [x] 205. Isomorphic Strings
 - [x] 206. Reverse Linked List
 - [x] 217. Contains Duplicate
+- [x] 225. Implement Stack using Queues
 - [x] 231. Power of Two
+- [x] 232. Implement Queue using Stacks
 - [x] 234. Palindrome Linked List
 - [x] 238. Product of Array Except Self
 - [x] 260. Single Number III
