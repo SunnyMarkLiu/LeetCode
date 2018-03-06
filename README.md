@@ -78,6 +78,7 @@ Leet Code Solutions
 - [x] 394. Decode String
 
 ## 401-500
+- [x] 409. Longest Palindrome
 - [x] 415. Add Strings
 - [x] 443. String Compression
 - [x] 445. Add Two Numbers II
@@ -88,6 +89,7 @@ Leet Code Solutions
 - [x] 557. Reverse Words in a String III
 
 ## 601-700
+- [x] 680. Valid Palindrome II
 - [x] 686. Repeated String Match
 
 ## Summary

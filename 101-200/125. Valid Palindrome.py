@@ -11,7 +11,7 @@
 
 
 class Solution(object):
-    def isPalindrome2(self, s):
+    def isPalindrome1(self, s):
         """
         beat 13.46%
         :type s: str
@@ -37,7 +37,7 @@ class Solution(object):
         else:
             return False
 
-    def isPalindrome(self, s):
+    def isPalindrome2(self, s):
         """
         :type s: str
         :rtype: bool
@@ -58,5 +58,22 @@ class Solution(object):
             r -= 1
         return True
 
+    def isPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        if len(s) == 0:
+            return True
 
-print Solution().isPalindrome('a a')
+        cleaned_s = ''.join(c for c in s if c.isalnum()).lower()
+
+        l, r = 0, len(cleaned_s) - 1
+
+        while l < r:
+            if cleaned_s[l] != cleaned_s[r]:
+                return False
+            l += 1
+            r -= 1
+
+        return True
