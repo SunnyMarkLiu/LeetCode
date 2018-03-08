@@ -42,6 +42,9 @@ Leet Code Solutions
 - [x] 100. Same Tree
 
 ## 101-200
+- [x] 102. Binary Tree Level Order Traversal
+- [x] 107. Binary Tree Level Order Traversal II
+- [x] 111. Minimum Depth of Binary Tree
 - [x] 112. Path Sum
 - [x] 113. Path Sum II
 - [x] 118. Pascal's Triangle
