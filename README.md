@@ -42,6 +42,8 @@ Leet Code Solutions
 - [x] 100. Same Tree
 
 ## 101-200
+- [x] 112. Path Sum
+- [x] 113. Path Sum II
 - [x] 118. Pascal's Triangle
 - [x] 119. Pascal's Triangle II
 - [x] 125. Valid Palindrome
@@ -75,6 +77,7 @@ Leet Code Solutions
 - [x] 234. Palindrome Linked List
 - [x] 237. Delete Node in a Linked List
 - [x] 238. Product of Array Except Self
+- [x] 257. Binary Tree Paths
 - [x] 260. Single Number III
 - [x] 268. Missing Number
 - [x] 278. First Bad Version
@@ -102,6 +105,7 @@ Leet Code Solutions
 
 ## 501-600
 - [x] 557. Reverse Words in a String III
+- [x] 563. Binary Tree Tilt
 
 ## 601-700
 - [x] 680. Valid Palindrome II
