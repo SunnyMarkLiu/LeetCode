@@ -16,7 +16,7 @@ class TreeNode:
 
 
 class Solution:
-    def buildTree(self, preorder, inorder):
+    def buildTree1(self, preorder, inorder):
         """
         :type preorder: List[int]
         :type inorder: List[int]
@@ -38,4 +38,18 @@ class Solution:
         # 构造右子树，注意preorder开始的位置：上一次preStart + 左子树再前序遍历的长度
         root.right = self.helper(preStart + (inIndex - inStart + 1), inIndex + 1, inEnd, preorder, inorder)
 
+        return root
+
+    def buildTree(self, preorder, inorder):
+        """
+        方法二
+        """
+        if not preorder or not inorder:
+            return None
+
+        root = TreeNode(preorder.pop(0))
+        ind = inorder.index(root.val)
+
+        root.left = self.buildTree(preorder, inorder[0:ind])
+        root.right = self.buildTree(preorder, inorder[ind + 1:])
         return root
