@@ -45,7 +45,7 @@ class Solution:
     方法2：迭代
     其实就是用一个栈来模拟递归的过程。所以算法时间复杂度也是O(n)，空间复杂度是栈的大小O(logn)
     """
-    def preorderTraversal(self, root):
+    def preorderTraversal2(self, root):
         """
         :type root: TreeNode
         :rtype: List[int]
@@ -56,21 +56,41 @@ class Solution:
             return result
 
         stack = []
-        head = root  # 辅助结点
+        node = root  # 辅助结点
         # 第一个判断表示左边分支还没访问完，
         # 第二个判断表示向上返回的时候stack里面还存在访问过的根结点，此时root为None，开始访问右分支
-        while head or len(stack) > 0:
-            if head:
+        while node or len(stack) > 0:
+            if node:
                 # 访问当前根结点
-                result.append(head.val)
+                result.append(node.val)
                 # 当前根结点入栈
-                stack.append(head)
+                stack.append(node)
                 # 前序遍历左子树
-                head = head.left
+                node = node.left
             else:  # 访问完叶子结点
                 # 取出上一次已经访问的根结点
-                pre_head = stack.pop()
+                node = stack.pop()
                 # 开始访问右结点
-                head = pre_head.right
+                node = node.right
 
+        return result
+
+    def preorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        result = []
+
+        if not root:
+            return result
+
+        stack = [root]
+        while len(stack) > 0:
+            curr = stack.pop()
+            result.append(curr.val)
+            if curr.right:
+                stack.append(curr.right)
+            if curr.left:
+                stack.append(curr.left)
         return result

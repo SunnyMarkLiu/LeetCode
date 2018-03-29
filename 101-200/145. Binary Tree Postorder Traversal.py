@@ -20,6 +20,7 @@ class Solution:
     方法1：递归
     算法的时间复杂度是O(n), 而空间复杂度则是递归栈的大小，即树的深度，O(logn)
     """
+
     def postorderTraversal1(self, root):
         """
         :type root: TreeNode
@@ -43,7 +44,7 @@ class Solution:
     """
     方法2：迭代
     其实就是用一个栈来模拟递归的过程。所以算法时间复杂度也是O(n)，空间复杂度是栈的大小O(logn)
-    
+
     后续的顺序是左-右-根，所以 **当一个节点值被取出来时，它的左右子节点要么不存在，要么左右子节点已经被访问过了**。
     我们先将根结点压入栈，然后定义一个辅助结点node，while循环的条件是栈不为空，在循环中，
     首先将栈顶结点 top 取出来，如果栈顶结点没有左右子结点，或者其左子结点是node，或者其右子结点是node的情况下,
@@ -56,7 +57,8 @@ class Solution:
     **这样的话 node 每次就是指向前一个处理过并且加入结果res的结点**，那么如果栈顶结点的左子结点或者右子结点是node的话，
     说明其子结点已经加入结果res了，那么就可以处理当前结点(栈顶结点)了
     """
-    def postorderTraversal(self, root):
+
+    def postorderTraversal2(self, root):
         """
         :type root: TreeNode
         :rtype: List[int]
@@ -87,5 +89,23 @@ class Solution:
                     stack.append(top.right)
                 if top.left:
                     stack.append(top.left)
+
+        return result
+
+    def postorderTraversal(self, root):
+        result = []
+
+        if not root:
+            return result
+
+        stack = [root]
+
+        while len(stack) > 0:
+            curr = stack.pop()
+            result.insert(0, curr.val)
+            if curr.left:
+                stack.append(curr.left)
+            if curr.right:
+                stack.append(curr.right)
 
         return result
